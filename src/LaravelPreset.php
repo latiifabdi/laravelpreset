@@ -6,7 +6,7 @@ use Illuminate\Filesystem\Filesystem;
 use Illuminate\Foundation\Console\Presets\Preset;
 use Illuminate\Support\Arr;
 
-class AbdiPreset extends Preset
+class LaravelPreset extends Preset
 {
 	public static function install()
 	{
