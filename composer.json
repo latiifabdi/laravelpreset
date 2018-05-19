@@ -1,0 +1,24 @@
+{
+    "name": "abdiali/laravel-preset",
+    "description": "laravel preset for tailwind css",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "latiifabdi",
+            "email": "latiif607@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Acme\\LaravelPreset": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Acme\\LaravelPreset\\LaravelPresetSerivceProvider"
+            ]
+        }
+    }
+}
